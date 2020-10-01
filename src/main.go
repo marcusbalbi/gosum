@@ -1,11 +1,11 @@
 package main;
 
 import (
-	"balbi/balbimath"
+	"./balbi"
 	"fmt"
 );
 
 func main () {
-	result := balbimath.Sum(5,5);
+	result := balbi.Sum(5,5);
 	fmt.Println("O resultado da soma 5 + 5 é:", result);
 }

@@ -1,4 +1,4 @@
-package balbimath
+package balbi;
 
 import "testing"
 
