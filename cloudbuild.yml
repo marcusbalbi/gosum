@@ -11,3 +11,6 @@ steps:
 - id: "rodando imagem"
   name: 'docker'
   args: ['run', '-t', 'gcr.io/$PROJECT_ID/golangsum:latest']
+
+images:
+- 'gcr.io/$PROJECT_ID/golangsum:latest'
