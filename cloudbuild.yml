@@ -10,4 +10,4 @@ steps:
 
 - id: "rodando testes"
   name: 'golang'
-  args: ['cd src/','go', 'test', './...']
+  args: ['cd src; go test ./...']
